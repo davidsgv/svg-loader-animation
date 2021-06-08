@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="250"
+   height="250"
+   viewBox="0 0 66.145835 66.145835"
+   version="1.1"
+   id="loader-container"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <linearGradient
+       id="linearGradient1406">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1402" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1404" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1396">
+      <stop
+         style="stop-color:#2a865b;stop-opacity:1;"
+         offset="0"
+         id="stop1392" />
+      <stop
+         style="stop-color:#2a865b;stop-opacity:0;"
+         offset="1"
+         id="stop1394" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1406"
+       id="linearGradient1408"
+       x1="5.7426782"
+       y1="33.123493"
+       x2="33.332592"
+       y2="18.876698"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient1396"
+       id="linearGradient1440"
+       x1="5.7426782"
+       y1="33.123493"
+       x2="33.332592"
+       y2="18.876698"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <style
+     id="style2">
+      #loader-container{
+         animation-name: loader;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+      }
+      #loader{
+         animation-name: loaderColor;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+      }
+
+      @keyframes loaderColor{
+         0%{
+            fill: #A9B9D9
+         }
+         80%{
+            fill: #F2E0D5
+         }
+         90%{
+            fill: #BF8AA7
+         }
+         95%{
+            fill: #D0E5F2
+         }
+      }
+
+      @keyframes loader{
+         0%{
+            transform: rotate(0deg);
+         }
+         80%{
+            transform: rotate(420deg);
+         }
+         95%{
+            transform: rotate(380deg);
+         }
+         100%{
+            transform: rotate(360deg);
+         }
+      }
+   </style>
+  <path
+     style="fill:url(#linearGradient1440);stroke:url(#linearGradient1408);stroke-width:5.29167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+     id="path1038"
+     d="M 57.145092,33.123684 A 24.37817,24.098866 0 0 1 33.227714,57.218244 24.37817,24.098866 0 0 1 8.4061716,34.034546 24.37817,24.098866 0 0 1 31.385205,9.0635577 24.37817,24.098866 0 0 1 57.075438,31.303261" />
+</svg>
